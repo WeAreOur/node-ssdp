@@ -1,0 +1,26 @@
+{
+  "name": "node-ssdp",
+  "version": "0.0.0",
+  "description": "An async/await implementation of the Simple Service Discovery Protocol for NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homelify/node-ssdp.git"
+  },
+  "keywords": [
+    "node",
+    "ssdp",
+    "dgram",
+    "gateway",
+    "upnp"
+  ],
+  "author": "Cesar Costas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/homelify/node-ssdp/issues"
+  },
+  "homepage": "https://github.com/homelify/node-ssdp#readme"
+}
