@@ -1,6 +1,6 @@
 {
-  "name": "node-ssdp",
-  "version": "0.0.0",
+  "name": "@homelify/node-ssdp",
+  "version": "0.1.3",
   "description": "An async/await implementation of the Simple Service Discovery Protocol for NodeJS",
   "main": "index.js",
   "scripts": {
