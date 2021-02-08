@@ -10,11 +10,10 @@ function parse(msg) {
         ...headMsg
     ] = header.split(' ');
 
-    const props = body.filter(Boolean).reduce((all, line) => {
+    const props = body.reduce((all, line) => {
+        if (!line) return all;
         const [key, value = ''] = line.split(/:(.*)/);
-
         all[key.trim().toUpperCase()] = value.trim();
-
         return all;
     }, {});
 
