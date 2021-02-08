@@ -18,7 +18,7 @@
     "upnp"
   ],
   "author": "Cesar Costas",
-  "license": "MIT",
+  "license": "The Unlicense",
   "bugs": {
     "url": "https://github.com/homelify/node-ssdp/issues"
   },
