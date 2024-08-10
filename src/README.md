@@ -25,4 +25,4 @@ There's no releases yet, but here's how the versions should change:
 
 **Patch**: any other change, as long as it doesn't change: input interface (input params on methods), output interface (output of methods), or expectations (what's being tested)
 
-Release will be done with tags, so the install will use `github:` and not npm as the source, example `github:homelify/node-ssdp#1.0.0` will point to the version 1.0.0 while `github:homelify/node-ssdp` will point to the latest.
+Release will be done with tags, so the install will use `github:` and not npm as the source, example `github:WeAreOur/node-ssdp#1.0.0` will point to the version 1.0.0 while `github:WeAreOur/node-ssdp` will point to the latest.

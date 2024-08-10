@@ -1,12 +1,10 @@
-module.exports = {
-    SSDP_ALIVE: 'ssdp:alive',
-    SSDP_BYE: 'ssdp:byebye',
-    SSDP_ALL: 'ssdp:all',
-    SSDP_DISCOVER: 'ssdp:discover',
-    ADVERTISE_ALIVE: 'advertise-alive',
-    ADVERTISE_BYE: 'advertise-bye',
-    NOTIFY: 'notify',
-    M_SEARCH: 'm-search',
-    SSDP_DEFAULT_IP: '239.255.255.250',
-    SSDP_DEFAULT_PORT: 1900
-};
+export const SSDP_ALIVE = 'ssdp:alive';
+export const SSDP_BYE = 'ssdp:byebye';
+export const SSDP_ALL = 'ssdp:all';
+export const SSDP_DISCOVER = 'ssdp:discover';
+export const ADVERTISE_ALIVE = 'advertise-alive';
+export const ADVERTISE_BYE = 'advertise-bye';
+export const NOTIFY = 'notify';
+export const M_SEARCH = 'm-search';
+export const SSDP_DEFAULT_IP = '239.255.255.250';
+export const SSDP_DEFAULT_PORT = 1900;

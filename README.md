@@ -11,16 +11,16 @@ See [diversario/node-ssdp](https://github.com/diversario/node-ssdp) for a more c
 
 ## Install
 
-Install directly from Github with `npm i --save homelify/node-ssdp`
+Install directly from Github with `npm i --save github:WeAreOur/node-ssdp`
 
 ## Usage
 
 ### M-SEARCH
 
 Performs the m-search and returns the message from the device parsed as a javascript object.
-(See [m-search](https://github.com/homelify/node-ssdp/blob/main/src/ssdp-methods/m-search.md))
+(See [m-search](https://github.com/WeAreOur/node-ssdp/blob/main/src/ssdp-methods/m-search.md))
 
 ```
-const SSDP = require('@homelify/node-ssdp');
+const SSDP = require('@weareour/node-ssdp');
 const message = await SSDP.mSearch({ serviceType });
 ```

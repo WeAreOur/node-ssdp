@@ -1,9 +1,9 @@
-const {
+import {
     SSDP_DEFAULT_IP,
     SSDP_DEFAULT_PORT,
-} = require('../ssdp-constants');
+} from '../ssdp-constants';
 
-module.exports = async function mSearch({ serviceType, ip = SSDP_DEFAULT_IP, port = SSDP_DEFAULT_PORT, dgramParams = {}, headers = {} }) {
+export async function mSearch({ serviceType, ip = SSDP_DEFAULT_IP, port = SSDP_DEFAULT_PORT, dgramParams = {}, headers = {} }) {
     return new Promise(async (resolve, reject) => {
         if (!serviceType) reject(new Error('M-SEARCH requires serviceType.'));
 

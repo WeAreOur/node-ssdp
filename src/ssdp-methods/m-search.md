@@ -4,14 +4,14 @@ Performs the m-search and returns the message from the device parsed as a javasc
 
 Minimal usage:
 ```js
-const SSDP = require('@homelify/node-ssdp');
+import SSDP from '@weareour/node-ssdp';
 
 const message = await SSDP.mSearch({ serviceType });
 ```
 
 All the params:
 ```js
-const SSDP = require('@homelify/node-ssdp');
+import SSDP from '@weareour/node-ssdp';
 
 const requiredParams = {
     // The schema name of the device

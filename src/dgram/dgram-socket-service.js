@@ -1,10 +1,10 @@
-const dgram = require('dgram');
+import dgram from 'node:dgram';
 
 const DEFAULT_DGRAM_TYPE = 'udp4';
 const DEFAULT_DGRAM_PORT = 3000;
 const DEFAULT_DGRAM_REUSE_ADDRESS = true;
 
-class DGramSocketService {
+export class DGramSocketService {
     constructor({
         type = DEFAULT_DGRAM_TYPE,
         port = DEFAULT_DGRAM_PORT,
@@ -50,5 +50,3 @@ class DGramSocketService {
         this.socket.close();
     }
 }
-
-module.exports = DGramSocketService;

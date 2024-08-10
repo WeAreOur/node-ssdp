@@ -1,3 +1,1 @@
-module.exports = {
-    mSearch: require('./ssdp-methods/m-search'),
-};
+export { mSearch } from './ssdp-methods/m-search';

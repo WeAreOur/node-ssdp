@@ -1,4 +1,4 @@
-function parse(msg) {
+export function parse(msg) {
     const [
         header,
         ...body
@@ -24,7 +24,3 @@ function parse(msg) {
         ...props
     };
 }
-
-module.exports = {
-    parse,
-};

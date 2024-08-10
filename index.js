@@ -6,4 +6,4 @@
  * 
  * This package only exports the namespace SSDP with the ssdp-methods
  */
-module.exports = require('./src/ssdp');
+export * from './src/ssdp';

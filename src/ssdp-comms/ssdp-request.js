@@ -1,4 +1,4 @@
-function header({ method, headers }) {
+export function header({ method, headers }) {
     if (!method) throw new Error('SSDP header requires method.');
 
     return Buffer.from(
@@ -10,7 +10,3 @@ function header({ method, headers }) {
         'ascii',
     );
 }
-
-module.exports = {
-    header,
-};
