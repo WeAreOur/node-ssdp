@@ -5,7 +5,7 @@ import {
    M_SEARCH,
 } from '../ssdp-constants.js';
 import { DGramSocketService } from '../dgram/dgram-socket-service.js';
-import { Request, Response } from '../ssdp-comms.js';
+import { Request, Response } from '../ssdp-comms/index.js';
 
 export async function mSearch({
    serviceType,
