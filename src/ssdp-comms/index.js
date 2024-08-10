@@ -1,2 +1,2 @@
-export * from './ssdp-request';
-export * from './ssdp-response';
+export * from './ssdp-request.js';
+export * from './ssdp-response.js';

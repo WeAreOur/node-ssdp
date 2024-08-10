@@ -3,9 +3,9 @@ import {
    SSDP_DEFAULT_PORT,
    SSDP_DISCOVER,
    M_SEARCH,
-} from '../ssdp-constants';
-import { DGramSocketService } from '../dgram/dgram-socket-service';
-import { Request, Response } from '../ssdp-comms';
+} from '../ssdp-constants.js';
+import { DGramSocketService } from '../dgram/dgram-socket-service.js';
+import { Request, Response } from '../ssdp-comms.js';
 
 export async function mSearch({
    serviceType,
@@ -15,7 +15,7 @@ export async function mSearch({
    headers = {}
 }) {
    return new Promise(async (resolve, reject) => {
-      if (!serviceType) reject(new Error('M-SEARCH requires serviceType.'));
+      if (!serviceType) reject(new Error('M-SEARCH requires a serviceType.'));
 
       const service = new DGramSocketService({ port, ...dgramParams });
 

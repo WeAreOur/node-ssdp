@@ -21,6 +21,6 @@ Performs the m-search and returns the message from the device parsed as a javasc
 (See [m-search](https://github.com/WeAreOur/node-ssdp/blob/main/src/ssdp-methods/m-search.md))
 
 ```
-const SSDP = require('@weareour/node-ssdp');
+import SSDP from '@weareour/node-ssdp';
 const message = await SSDP.mSearch({ serviceType });
 ```

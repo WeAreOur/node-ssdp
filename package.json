@@ -1,6 +1,6 @@
 {
   "name": "@weareour/node-ssdp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "An async/await implementation of the Simple Service Discovery Protocol for NodeJS",
   "author": "WeAreOur Tech",
   "license": "The Unlicense",

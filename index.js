@@ -1,1 +1,1 @@
-export * from './src/ssdp';
+export * from './src/ssdp.js';

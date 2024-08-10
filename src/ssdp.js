@@ -1,1 +1,1 @@
-export { mSearch } from './ssdp-methods/m-search';
+export { mSearch } from './ssdp-methods/m-search.js';
